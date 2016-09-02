@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/kiri"
+        android:text="Hallo Kiri"
+        android:background="#fddede"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/kiribawa"
+        android:text="Hallo Kiri"
+        android:background="#fddede"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kiri"
+        android:layout_alignLeft="@+id/kiri"
+        android:layout_alignStart="@+id/kiri" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10 miles away"
+        android:layout_below="@+id/kiri"
+        android:layout_toRightOf="@id/kiribawa"
+        android:textAppearance="?android:textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/bawah"
+        android:text="Hallo"
+        android:background="#fddede"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:text="omoju"
+        android:id="@+id/bawahatas"
+        android:layout_above="@id/bawah"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="omoju"
+        android:layout_above="@id/bawahatas"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Hallo"
+        android:background="#fddede"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bawahkiri"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:text="Hallo"
+        android:background="#fddede"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/bawahkiri"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/bawahkiri"
+        android:text="Hallo"
+        android:background="#fddede"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"/>
+
+</RelativeLayout>
